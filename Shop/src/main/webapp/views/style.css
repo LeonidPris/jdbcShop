@@ -1,0 +1,74 @@
+.test{
+	color: red;
+}
+html, body {
+  height: 100%;
+  background-color: #e4e6eb;
+}
+/*----HEADER----*/
+.wrapper{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.nav{
+    margin: 0 auto;
+    border: 1px solid black;
+	margin-bottom: 20px;
+}
+.nav_ul{
+   display: flex;
+   justify-content: space-around;
+
+}
+.nav_li{
+    list-style-type: none;
+}
+.nav_li > a {
+    text-decoration: none;
+    color: gray;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/*----FOOTER----*/
+footer {
+	text-align: center;
+}
+footer > p {
+	padding: 30px;
+	border: 1px solid black;
+}
+
+/*----CATALOG----*/
+table{
+	border-collapse: collapse; 
+	width: 100%;
+	text-align: center;
+}
+tr{
+	border: 1px solid black;
+}
+/*----REGISTRATION----*/
+.reg{
+	text-align: center;
+	background-color: #7bbd8a;
+	margin:185px 440px;
+	padding: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
